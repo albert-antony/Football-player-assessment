@@ -22,12 +22,13 @@ train.csv and test.csv contain the variables relating to player, match, team, an
 
 Variables that encode player properties or performance are grouped according to the following scheme:  
 player_(offensive/defensive/positional/physical/general/other)_(derived/raw/ratio)_var_#number
-1.player - shows if the variable refers to a player property
-2.(offensive/defensive/positional/physical/general/other) - refers to the nature of the variable
-3.(derived/raw/ratio):
-         1.raw: variable empirically measured
-         2.derived: variable defined based on two or more variables and not empirically measured
-         3.ratio: variable defined as a ratio of two raw variables
+1.       player - shows if the variable refers to a player property
+2.       (offensive/defensive/positional/physical/general/other) - refers to the nature of the variable
+3.       (derived/raw/ratio):
+
+                1.raw: variable empirically measured
+                2.derived: variable defined based on two or more variables and not empirically measured
+                3.ratio: variable defined as a ratio of two raw variables
 
 Variables that encode team properties or performance are grouped according to the following scheme:  
 team(1/2)_(offensive/defensive/other)_(derived/raw/ratio)_var_#number
