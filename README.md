@@ -34,6 +34,7 @@ team(1/2)_(offensive/defensive/other)_(derived/raw/ratio)_var_#number
 1.	team(1/2) shows if the variable refers to a team1 or team2 property
 2.	(offensive/defensive/other) refers to the nature of the variable
 3.	(derived/raw/ratio):
+
                1.raw: variable empirically measured
                2.derived: variable defined based on two or more variables and not empirically measured
                3.ratio: variable defined as a ratio of two raw variables
