@@ -16,22 +16,9 @@ You are provided with 3 files: train.csv, test.csv, and sample_submission.csv.
 
 train.csv and test.csv contain the variables relating to player, match, team, and opponent. The training set includes the target variable rating_num indicating the rating of a player in a match. You need to predict the rating_num in the test set.
 
+
 ## Variable	Description
-row_id	Unique identifier of a row
-scout_id (categorical)	Unique identifier of a scout
-winner (categorical)	Player’s team result: winner, loser, or draw
-team (categorical)	Team of the player: Team1 or Team2 
-team1_system_id (categorical)	Unique Id of Team 1
-team2_system_id (categorical)	Unique Id of Team 2
-competitionId (categorical)	Competition id of the match
-player_position_1 (categorical)	Position 1 of a player in a match
-player_position_2 (categorical)	Position 2 of a player in a match
-player_height	Transformed height of a player
-player_weight	Transformed weight of a player
-Player Encoded Variables	Pre encoded variables of a player related to offensive, defensive, positional, physical, general, and other
-Team 1 Encoded Variables 	Pre encoded variables of Team 1 related to offensive, defensive and other 
-Team 2 Encoded Variables 	Pre encoded variables of Team 2 related to offensive, defensive and other 
-rating_num	Rating of a player in a match given by a scout
+![image](https://user-images.githubusercontent.com/91201515/173370403-275ab95c-26f1-4dbc-91c5-a5980f2e3f84.png)
 
 Variables that encode player properties or performance are grouped according to the following scheme:  
 player_(offensive/defensive/positional/physical/general/other)_(derived/raw/ratio)_var_#number
